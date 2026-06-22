@@ -1,0 +1,50 @@
+{
+  "name": "linguakids",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "android:win": "scripts\\run-android.cmd",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-firebase/app": "^24.0.0",
+    "@react-native-firebase/auth": "^24.0.0",
+    "@react-native-firebase/firestore": "^24.0.0",
+    "@react-native-google-signin/google-signin": "^16.1.2",
+    "@react-navigation/bottom-tabs": "^7.3.10",
+    "@react-navigation/native": "^7.1.6",
+    "@react-navigation/stack": "^7.3.2",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-bootsplash": "^6.3.5",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-nitro-modules": "^0.35.9",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-sound": "^0.11.2",
+    "react-native-tts": "^4.1.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-worklets": "^0.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7",
+    "@babel/runtime": "^7.29.7",
+    "@react-native-community/cli": "15.0.1",
+    "@react-native-community/cli-platform-android": "15.0.1",
+    "@react-native-community/cli-platform-ios": "15.0.1",
+    "@react-native/babel-preset": "0.81.5",
+    "@react-native/eslint-config": "0.81.5",
+    "@react-native/metro-config": "0.81.5",
+    "@react-native/typescript-config": "0.81.5",
+    "@types/react": "^19.1.0",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "babel-plugin-module-resolver": "^5.0.3",
+    "typescript": "5.9.3"
+  }
+}

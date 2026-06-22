@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+**/build/
+**/.gradle/
+**/.cxx/
+**/local.properties
+
+# OS / IDE
+.DS_Store
+.idea/
+*.iml
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Temp scaffold
+LinguaKidsTemp/

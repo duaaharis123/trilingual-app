@@ -1,0 +1,365 @@
+{
+  "version": "1.1.0",
+  "categories": [
+    {
+      "id": "animals",
+      "label": { "en": "Animals", "ar": "الحيوانات", "ur": "جانور" },
+      "emoji": "🐾",
+      "words": [
+        {
+          "id": "cat",
+          "en": { "word": "Cat" },
+          "ar": { "word": "قِطَّة", "transliteration": "qiṭṭa" },
+          "ur": { "word": "بِلّی", "transliteration": "billī" },
+          "image": "animals/cat.png"
+        },
+        {
+          "id": "dog",
+          "en": { "word": "Dog" },
+          "ar": { "word": "كَلْب", "transliteration": "kalb" },
+          "ur": { "word": "کُتّا", "transliteration": "kuttā" },
+          "image": "animals/dog.png"
+        },
+        {
+          "id": "bird",
+          "en": { "word": "Bird" },
+          "ar": { "word": "طَائِر", "transliteration": "ṭāʾir" },
+          "ur": { "word": "پَرِندَہ", "transliteration": "parinda" },
+          "image": "animals/bird.png"
+        },
+        {
+          "id": "fish",
+          "en": { "word": "Fish" },
+          "ar": { "word": "سَمَكَة", "transliteration": "samaka" },
+          "ur": { "word": "مَچھلی", "transliteration": "machhli" },
+          "image": "animals/fish.png"
+        },
+        {
+          "id": "lion",
+          "en": { "word": "Lion" },
+          "ar": { "word": "أَسَد", "transliteration": "asad" },
+          "ur": { "word": "شیر", "transliteration": "sher" },
+          "image": "animals/lion.png"
+        },
+        {
+          "id": "elephant",
+          "en": { "word": "Elephant" },
+          "ar": { "word": "فِيل", "transliteration": "fīl" },
+          "ur": { "word": "ہاتھی", "transliteration": "hāthī" },
+          "image": "animals/elephant.png"
+        },
+        {
+          "id": "rabbit",
+          "en": { "word": "Rabbit" },
+          "ar": { "word": "أَرْنَب", "transliteration": "arnab" },
+          "ur": { "word": "خَرگوش", "transliteration": "khargosh" },
+          "image": "animals/rabbit.png"
+        },
+        {
+          "id": "cow",
+          "en": { "word": "Cow" },
+          "ar": { "word": "بَقَرَة", "transliteration": "baqara" },
+          "ur": { "word": "گائے", "transliteration": "gāy" },
+          "image": "animals/cow.png"
+        },
+        {
+          "id": "horse",
+          "en": { "word": "Horse" },
+          "ar": { "word": "حِصَان", "transliteration": "ḥiṣān" },
+          "ur": { "word": "گھوڑا", "transliteration": "ghoṛā" },
+          "image": "animals/horse.png"
+        },
+        {
+          "id": "monkey",
+          "en": { "word": "Monkey" },
+          "ar": { "word": "قِرْد", "transliteration": "qird" },
+          "ur": { "word": "بَندَر", "transliteration": "bandar" },
+          "image": "animals/monkey.png"
+        },
+        {
+          "id": "snake",
+          "en": { "word": "Snake" },
+          "ar": { "word": "ثُعْبَان", "transliteration": "thuʿbān" },
+          "ur": { "word": "سانپ", "transliteration": "sānp" },
+          "image": "animals/snake.png"
+        },
+        {
+          "id": "butterfly",
+          "en": { "word": "Butterfly" },
+          "ar": { "word": "فَرَاشَة", "transliteration": "farāsha" },
+          "ur": { "word": "تِتلی", "transliteration": "titlī" },
+          "image": "animals/butterfly.png"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "label": { "en": "Food", "ar": "الطَّعَام", "ur": "کھانا" },
+      "emoji": "🍎",
+      "words": [
+        {
+          "id": "apple",
+          "en": { "word": "Apple" },
+          "ar": { "word": "تُفَّاحَة", "transliteration": "tuffāḥa" },
+          "ur": { "word": "سیب", "transliteration": "seb" },
+          "image": "food/apple.png"
+        },
+        {
+          "id": "banana",
+          "en": { "word": "Banana" },
+          "ar": { "word": "مَوْزَة", "transliteration": "mawza" },
+          "ur": { "word": "کیلا", "transliteration": "kelā" },
+          "image": "food/banana.png"
+        },
+        {
+          "id": "bread",
+          "en": { "word": "Bread" },
+          "ar": { "word": "خُبْز", "transliteration": "khubz" },
+          "ur": { "word": "روٹی", "transliteration": "roṭī" },
+          "image": "food/bread.png"
+        },
+        {
+          "id": "milk",
+          "en": { "word": "Milk" },
+          "ar": { "word": "حَلِيب", "transliteration": "ḥalīb" },
+          "ur": { "word": "دُودھ", "transliteration": "dūdh" },
+          "image": "food/milk.png"
+        },
+        {
+          "id": "egg",
+          "en": { "word": "Egg" },
+          "ar": { "word": "بَيْضَة", "transliteration": "bayḍa" },
+          "ur": { "word": "انڈا", "transliteration": "anḍā" },
+          "image": "food/egg.png"
+        },
+        {
+          "id": "rice",
+          "en": { "word": "Rice" },
+          "ar": { "word": "أَرُزّ", "transliteration": "aruzz" },
+          "ur": { "word": "چاوَل", "transliteration": "chāwal" },
+          "image": "food/rice.png"
+        },
+        {
+          "id": "water",
+          "en": { "word": "Water" },
+          "ar": { "word": "مَاء", "transliteration": "māʾ" },
+          "ur": { "word": "پانی", "transliteration": "pānī" },
+          "image": "food/water.png"
+        },
+        {
+          "id": "orange",
+          "en": { "word": "Orange" },
+          "ar": { "word": "بُرْتُقَالَة", "transliteration": "burtuqāla" },
+          "ur": { "word": "نارنگی", "transliteration": "nārangī" },
+          "image": "food/orange.png"
+        },
+        {
+          "id": "mango",
+          "en": { "word": "Mango" },
+          "ar": { "word": "مَانجُو", "transliteration": "mānjū" },
+          "ur": { "word": "آم", "transliteration": "ām" },
+          "image": "food/mango.png"
+        },
+        {
+          "id": "cheese",
+          "en": { "word": "Cheese" },
+          "ar": { "word": "جُبْن", "transliteration": "jubn" },
+          "ur": { "word": "پنیر", "transliteration": "panīr" },
+          "image": "food/cheese.png"
+        }
+      ]
+    },
+    {
+      "id": "colors",
+      "label": { "en": "Colors", "ar": "الأَلْوَان", "ur": "رنگ" },
+      "emoji": "🎨",
+      "words": [
+        {
+          "id": "red",
+          "en": { "word": "Red" },
+          "ar": { "word": "أَحْمَر", "transliteration": "aḥmar" },
+          "ur": { "word": "سُرخ", "transliteration": "surkh" },
+          "image": "colors/red.png"
+        },
+        {
+          "id": "blue",
+          "en": { "word": "Blue" },
+          "ar": { "word": "أَزْرَق", "transliteration": "azraq" },
+          "ur": { "word": "نِیلا", "transliteration": "nīlā" },
+          "image": "colors/blue.png"
+        },
+        {
+          "id": "green",
+          "en": { "word": "Green" },
+          "ar": { "word": "أَخْضَر", "transliteration": "akhḍar" },
+          "ur": { "word": "ہَرا", "transliteration": "harā" },
+          "image": "colors/green.png"
+        },
+        {
+          "id": "yellow",
+          "en": { "word": "Yellow" },
+          "ar": { "word": "أَصْفَر", "transliteration": "aṣfar" },
+          "ur": { "word": "پِیلا", "transliteration": "pīlā" },
+          "image": "colors/yellow.png"
+        },
+        {
+          "id": "white",
+          "en": { "word": "White" },
+          "ar": { "word": "أَبْيَض", "transliteration": "abyaḍ" },
+          "ur": { "word": "سَفید", "transliteration": "safed" },
+          "image": "colors/white.png"
+        },
+        {
+          "id": "black",
+          "en": { "word": "Black" },
+          "ar": { "word": "أَسْوَد", "transliteration": "aswad" },
+          "ur": { "word": "کالا", "transliteration": "kālā" },
+          "image": "colors/black.png"
+        },
+        {
+          "id": "pink",
+          "en": { "word": "Pink" },
+          "ar": { "word": "وَرْدِيّ", "transliteration": "wardiyy" },
+          "ur": { "word": "گُلابی", "transliteration": "gulābī" },
+          "image": "colors/pink.png"
+        },
+        {
+          "id": "orange_color",
+          "en": { "word": "Orange" },
+          "ar": { "word": "بُرْتُقَالِيّ", "transliteration": "burtuqāliyy" },
+          "ur": { "word": "نارنجی", "transliteration": "nāranjī" },
+          "image": "colors/orange.png"
+        },
+        {
+          "id": "purple",
+          "en": { "word": "Purple" },
+          "ar": { "word": "بَنَفْسَجِيّ", "transliteration": "banafsajiyy" },
+          "ur": { "word": "جَامُنی", "transliteration": "jāmunī" },
+          "image": "colors/purple.png"
+        },
+        {
+          "id": "brown",
+          "en": { "word": "Brown" },
+          "ar": { "word": "بُنِّيّ", "transliteration": "bunniyy" },
+          "ur": { "word": "بھورا", "transliteration": "bhūrā" },
+          "image": "colors/brown.png"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "label": { "en": "Numbers", "ar": "الأَرْقَام", "ur": "گِنتی" },
+      "emoji": "🔢",
+      "words": [
+        { "id": "one",   "en": { "word": "One"   }, "ar": { "word": "وَاحِد",   "transliteration": "wāḥid"   }, "ur": { "word": "ایک",  "transliteration": "ek"    }, "image": "numbers/1.png" },
+        { "id": "two",   "en": { "word": "Two"   }, "ar": { "word": "اثْنَان",  "transliteration": "ithnān"  }, "ur": { "word": "دو",   "transliteration": "do"   }, "image": "numbers/2.png" },
+        { "id": "three", "en": { "word": "Three" }, "ar": { "word": "ثَلَاثَة", "transliteration": "thalātha"}, "ur": { "word": "تین",  "transliteration": "tīn"  }, "image": "numbers/3.png" },
+        { "id": "four",  "en": { "word": "Four"  }, "ar": { "word": "أَرْبَعَة","transliteration": "arbaʿa" }, "ur": { "word": "چار",  "transliteration": "chār" }, "image": "numbers/4.png" },
+        { "id": "five",  "en": { "word": "Five"  }, "ar": { "word": "خَمْسَة",  "transliteration": "khamsa" }, "ur": { "word": "پانچ", "transliteration": "pānch"}, "image": "numbers/5.png" },
+        { "id": "six",   "en": { "word": "Six"   }, "ar": { "word": "سِتَّة",   "transliteration": "sitta"  }, "ur": { "word": "چھ",   "transliteration": "chhe" }, "image": "numbers/6.png" },
+        { "id": "seven", "en": { "word": "Seven" }, "ar": { "word": "سَبْعَة",  "transliteration": "sabʿa"  }, "ur": { "word": "سات",  "transliteration": "sāt"  }, "image": "numbers/7.png" },
+        { "id": "eight", "en": { "word": "Eight" }, "ar": { "word": "ثَمَانِيَة","transliteration":"thamāniya"}, "ur": { "word": "آٹھ",  "transliteration": "āṭh"  }, "image": "numbers/8.png" },
+        { "id": "nine",  "en": { "word": "Nine"  }, "ar": { "word": "تِسْعَة",  "transliteration": "tisʿa"  }, "ur": { "word": "نو",   "transliteration": "nau"  }, "image": "numbers/9.png" },
+        { "id": "ten",   "en": { "word": "Ten"   }, "ar": { "word": "عَشَرَة",  "transliteration": "ʿashara"}, "ur": { "word": "دس",   "transliteration": "das"  }, "image": "numbers/10.png" }
+      ]
+    },
+    {
+      "id": "body_parts",
+      "label": { "en": "Body Parts", "ar": "أَجْزَاء الجِسْم", "ur": "جسم کے اعضاء" },
+      "emoji": "🖐️",
+      "words": [
+        { "id": "eye",   "en": { "word": "Eye"   }, "ar": { "word": "عَيْن",  "transliteration": "ʿayn"  }, "ur": { "word": "آنکھ",  "transliteration": "ānkh"  }, "image": "body/eye.png" },
+        { "id": "ear",   "en": { "word": "Ear"   }, "ar": { "word": "أُذُن",  "transliteration": "udhun" }, "ur": { "word": "کان",   "transliteration": "kān"   }, "image": "body/ear.png" },
+        { "id": "nose",  "en": { "word": "Nose"  }, "ar": { "word": "أَنْف",  "transliteration": "anf"   }, "ur": { "word": "ناک",   "transliteration": "nāk"   }, "image": "body/nose.png" },
+        { "id": "mouth", "en": { "word": "Mouth" }, "ar": { "word": "فَم",    "transliteration": "fam"   }, "ur": { "word": "منہ",   "transliteration": "munh"  }, "image": "body/mouth.png" },
+        { "id": "hand",  "en": { "word": "Hand"  }, "ar": { "word": "يَد",    "transliteration": "yad"   }, "ur": { "word": "ہاتھ",  "transliteration": "hāth"  }, "image": "body/hand.png" },
+        { "id": "foot",  "en": { "word": "Foot"  }, "ar": { "word": "قَدَم",  "transliteration": "qadam" }, "ur": { "word": "پاؤں",  "transliteration": "pāʾoñ" }, "image": "body/foot.png" },
+        { "id": "head",  "en": { "word": "Head"  }, "ar": { "word": "رَأْس",  "transliteration": "raʾs"  }, "ur": { "word": "سَر",   "transliteration": "sar"   }, "image": "body/head.png" },
+        { "id": "hair",  "en": { "word": "Hair"  }, "ar": { "word": "شَعْر",  "transliteration": "shaʿr" }, "ur": { "word": "بال",   "transliteration": "bāl"   }, "image": "body/hair.png" }
+      ]
+    },
+    {
+      "id": "family",
+      "label": { "en": "Family", "ar": "العَائِلَة", "ur": "خاندان" },
+      "emoji": "👨‍👩‍👧",
+      "words": [
+        { "id": "mother", "en": { "word": "Mother" }, "ar": { "word": "أُمّ",   "transliteration": "umm"   }, "ur": { "word": "ماں",   "transliteration": "māñ"   }, "image": "family/mother.png" },
+        { "id": "father", "en": { "word": "Father" }, "ar": { "word": "أَب",    "transliteration": "ab"    }, "ur": { "word": "ابّا",  "transliteration": "abbā"  }, "image": "family/father.png" },
+        { "id": "brother","en": { "word": "Brother"}, "ar": { "word": "أَخ",    "transliteration": "akh"   }, "ur": { "word": "بھائی", "transliteration": "bhāʾī" }, "image": "family/brother.png" },
+        { "id": "sister", "en": { "word": "Sister" }, "ar": { "word": "أُخْت",  "transliteration": "ukht"  }, "ur": { "word": "بہن",   "transliteration": "bahan" }, "image": "family/sister.png" },
+        { "id": "grandma","en": { "word": "Grandma"}, "ar": { "word": "جَدَّة",  "transliteration": "jadda" }, "ur": { "word": "دادی",  "transliteration": "dādī"  }, "image": "family/grandma.png" },
+        { "id": "grandpa","en": { "word": "Grandpa"}, "ar": { "word": "جَدّ",   "transliteration": "jadd"  }, "ur": { "word": "دادا",  "transliteration": "dādā"  }, "image": "family/grandpa.png" },
+        { "id": "baby",   "en": { "word": "Baby"   }, "ar": { "word": "رَضِيع", "transliteration": "raḍīʿ" }, "ur": { "word": "بچّہ",  "transliteration": "bachcha"}, "image": "family/baby.png" }
+      ]
+    },
+    {
+      "id": "home",
+      "label": { "en": "Home", "ar": "البَيْت", "ur": "گھر" },
+      "emoji": "🏠",
+      "words": [
+        { "id": "house",  "en": { "word": "House"  }, "ar": { "word": "بَيْت",    "transliteration": "bayt"    }, "ur": { "word": "گھر",    "transliteration": "ghar"    }, "image": "home/house.png" },
+        { "id": "door",   "en": { "word": "Door"   }, "ar": { "word": "بَاب",     "transliteration": "bāb"     }, "ur": { "word": "دَروازَہ","transliteration": "darwāza" }, "image": "home/door.png" },
+        { "id": "window", "en": { "word": "Window" }, "ar": { "word": "نَافِذَة",  "transliteration": "nāfidha" }, "ur": { "word": "کھِڑکی", "transliteration": "khiṛkī"  }, "image": "home/window.png" },
+        { "id": "bed",    "en": { "word": "Bed"    }, "ar": { "word": "سَرِير",   "transliteration": "sarīr"   }, "ur": { "word": "پَلنگ",  "transliteration": "palang"  }, "image": "home/bed.png" },
+        { "id": "chair",  "en": { "word": "Chair"  }, "ar": { "word": "كُرْسِيّ", "transliteration": "kursiyy" }, "ur": { "word": "کُرسی",  "transliteration": "kursī"   }, "image": "home/chair.png" },
+        { "id": "table",  "en": { "word": "Table"  }, "ar": { "word": "طَاوِلَة", "transliteration": "ṭāwila"  }, "ur": { "word": "میز",    "transliteration": "mez"     }, "image": "home/table.png" },
+        { "id": "book",   "en": { "word": "Book"   }, "ar": { "word": "كِتَاب",   "transliteration": "kitāb"   }, "ur": { "word": "کِتاب",  "transliteration": "kitāb"   }, "image": "home/book.png" },
+        { "id": "lamp",   "en": { "word": "Lamp"   }, "ar": { "word": "مِصْبَاح", "transliteration": "miṣbāḥ" }, "ur": { "word": "چَراغ",  "transliteration": "chirāgh" }, "image": "home/lamp.png" }
+      ]
+    },
+    {
+      "id": "school",
+      "label": { "en": "School", "ar": "المَدْرَسَة", "ur": "اسکول" },
+      "emoji": "🏫",
+      "words": [
+        { "id": "pencil",  "en": { "word": "Pencil"  }, "ar": { "word": "قَلَم رَصَاص", "transliteration": "qalam raṣāṣ" }, "ur": { "word": "پینسل",         "transliteration": "pensil"    }, "image": "school/pencil.png" },
+        { "id": "pen",     "en": { "word": "Pen"     }, "ar": { "word": "قَلَم",         "transliteration": "qalam"       }, "ur": { "word": "قلم",           "transliteration": "qalam"     }, "image": "school/pen.png" },
+        { "id": "ruler",   "en": { "word": "Ruler"   }, "ar": { "word": "مِسْطَرَة",     "transliteration": "misṭara"     }, "ur": { "word": "پیمائش",        "transliteration": "paimāish"  }, "image": "school/ruler.png" },
+        { "id": "bag",     "en": { "word": "Bag"     }, "ar": { "word": "حَقِيبَة",      "transliteration": "ḥaqība"      }, "ur": { "word": "بَستَہ",        "transliteration": "basta"     }, "image": "school/bag.png" },
+        { "id": "crayons", "en": { "word": "Crayons" }, "ar": { "word": "أَقْلَام تَلْوِين","transliteration": "aqlām talwīn"}, "ur": { "word": "رنگین پینسلیں","transliteration": "rangīn pensilẽ"}, "image": "school/crayons.png" },
+        { "id": "scissors","en": { "word": "Scissors"}, "ar": { "word": "مِقَصّ",         "transliteration": "miqaṣṣ"      }, "ur": { "word": "قینچی",         "transliteration": "qaiñchī"   }, "image": "school/scissors.png" }
+      ]
+    },
+    {
+      "id": "transport",
+      "label": { "en": "Transport", "ar": "وَسَائِل النَّقْل", "ur": "سَواری" },
+      "emoji": "🚗",
+      "words": [
+        { "id": "car",     "en": { "word": "Car"     }, "ar": { "word": "سَيَّارَة", "transliteration": "sayyāra" }, "ur": { "word": "گاڑی",       "transliteration": "gāṛī"    }, "image": "transport/car.png" },
+        { "id": "bus",     "en": { "word": "Bus"     }, "ar": { "word": "حَافِلَة", "transliteration": "ḥāfila"  }, "ur": { "word": "بَس",        "transliteration": "bas"     }, "image": "transport/bus.png" },
+        { "id": "train",   "en": { "word": "Train"   }, "ar": { "word": "قِطَار",   "transliteration": "qiṭār"   }, "ur": { "word": "ریل",        "transliteration": "rel"     }, "image": "transport/train.png" },
+        { "id": "plane",   "en": { "word": "Plane"   }, "ar": { "word": "طَائِرَة", "transliteration": "ṭāʾira"  }, "ur": { "word": "ہَوائی جہاز","transliteration": "hawāʾī jahāz"}, "image": "transport/plane.png" },
+        { "id": "boat",    "en": { "word": "Boat"    }, "ar": { "word": "قَارِب",   "transliteration": "qārib"   }, "ur": { "word": "کشتی",       "transliteration": "kashtī"  }, "image": "transport/boat.png" },
+        { "id": "bicycle", "en": { "word": "Bicycle" }, "ar": { "word": "دَرَّاجَة","transliteration": "darrāja" }, "ur": { "word": "سائیکل",     "transliteration": "sāʾikal" }, "image": "transport/bicycle.png" }
+      ]
+    },
+    {
+      "id": "nature",
+      "label": { "en": "Nature", "ar": "الطَّبِيعَة", "ur": "فطرت" },
+      "emoji": "🌿",
+      "words": [
+        { "id": "sun",    "en": { "word": "Sun"    }, "ar": { "word": "شَمْس",   "transliteration": "shams"   }, "ur": { "word": "سُورَج",  "transliteration": "sūraj"   }, "image": "nature/sun.png" },
+        { "id": "moon",   "en": { "word": "Moon"   }, "ar": { "word": "قَمَر",   "transliteration": "qamar"   }, "ur": { "word": "چاند",    "transliteration": "chānd"   }, "image": "nature/moon.png" },
+        { "id": "star",   "en": { "word": "Star"   }, "ar": { "word": "نَجْم",   "transliteration": "najm"    }, "ur": { "word": "ستارہ",   "transliteration": "sitāra"  }, "image": "nature/star.png" },
+        { "id": "rain",   "en": { "word": "Rain"   }, "ar": { "word": "مَطَر",   "transliteration": "maṭar"   }, "ur": { "word": "بارِش",   "transliteration": "bārish"  }, "image": "nature/rain.png" },
+        { "id": "tree",   "en": { "word": "Tree"   }, "ar": { "word": "شَجَرَة", "transliteration": "shajara" }, "ur": { "word": "پیڑ",     "transliteration": "peṛ"     }, "image": "nature/tree.png" },
+        { "id": "flower", "en": { "word": "Flower" }, "ar": { "word": "زَهْرَة", "transliteration": "zahra"   }, "ur": { "word": "پھول",    "transliteration": "phūl"    }, "image": "nature/flower.png" },
+        { "id": "cloud",  "en": { "word": "Cloud"  }, "ar": { "word": "سَحَابَة","transliteration": "saḥāba"  }, "ur": { "word": "بادَل",   "transliteration": "bādal"   }, "image": "nature/cloud.png" },
+        { "id": "sea",    "en": { "word": "Sea"    }, "ar": { "word": "بَحْر",   "transliteration": "baḥr"    }, "ur": { "word": "سَمُندَر","transliteration": "samandar"}, "image": "nature/sea.png" }
+      ]
+    },
+    {
+      "id": "clothing",
+      "label": { "en": "Clothing", "ar": "المَلَابِس", "ur": "کپڑے" },
+      "emoji": "👕",
+      "words": [
+        { "id": "shirt",  "en": { "word": "Shirt"  }, "ar": { "word": "قَمِيص",  "transliteration": "qamīṣ"   }, "ur": { "word": "قمیص",  "transliteration": "qamīṣ"  }, "image": "clothing/shirt.png" },
+        { "id": "shoes",  "en": { "word": "Shoes"  }, "ar": { "word": "حِذَاء",  "transliteration": "ḥidhāʾ"  }, "ur": { "word": "جوتے",  "transliteration": "jūte"   }, "image": "clothing/shoes.png" },
+        { "id": "hat",    "en": { "word": "Hat"    }, "ar": { "word": "قُبَّعَة", "transliteration": "qubbaʿa" }, "ur": { "word": "ٹوپی",   "transliteration": "ṭopī"   }, "image": "clothing/hat.png" },
+        { "id": "dress",  "en": { "word": "Dress"  }, "ar": { "word": "فُسْتَان", "transliteration": "fustān"  }, "ur": { "word": "فراک",  "transliteration": "frāk"   }, "image": "clothing/dress.png" },
+        { "id": "socks",  "en": { "word": "Socks"  }, "ar": { "word": "جَوَارِب", "transliteration": "jawārib" }, "ur": { "word": "جرابیں","transliteration": "jurābẽ" }, "image": "clothing/socks.png" },
+        { "id": "jacket", "en": { "word": "Jacket" }, "ar": { "word": "جَاكِيت", "transliteration": "jākit"   }, "ur": { "word": "جیکٹ",   "transliteration": "jekaṭ"  }, "image": "clothing/jacket.png" }
+      ]
+    }
+  ]
+}

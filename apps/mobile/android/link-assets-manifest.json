@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Amiri-Bold.ttf",
+      "sha1": "eb84bdc491cdb1a8d6b3d4a1fba9508759789836"
+    },
+    {
+      "path": "assets/fonts/Amiri-Regular.ttf",
+      "sha1": "a5f4fe8279d587ca8e65b01159c405788850c6d3"
+    },
+    {
+      "path": "assets/fonts/NotoNastaliqUrdu-Regular.ttf",
+      "sha1": "a447ce795d04a64226dc4ef40c4619a1bad2a31a"
+    },
+    {
+      "path": "assets/fonts/ScheherazadeNew-Regular.ttf",
+      "sha1": "9deea08a3a74349a8cf37532d34146105d59818a"
+    }
+  ]
+}

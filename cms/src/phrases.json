@@ -1,0 +1,243 @@
+{
+  "version": "1.1.0",
+  "phraseGroups": [
+    {
+      "id": "greetings",
+      "label": { "en": "Greetings", "ar": "التَّحِيَّات", "ur": "سلام دعا" },
+      "emoji": "👋",
+      "scene": "scenes/greetings.png",
+      "phrases": [
+        {
+          "id": "hello",
+          "en": { "text": "Hello!" },
+          "ar": { "text": "مَرْحَباً!", "transliteration": "marḥaban!" },
+          "ur": { "text": "ہَیلو!", "transliteration": "helo!" }
+        },
+        {
+          "id": "assalamu_alaikum",
+          "en": { "text": "Peace be upon you" },
+          "ar": { "text": "السَّلَامُ عَلَيْكُم", "transliteration": "as-salāmu ʿalaykum" },
+          "ur": { "text": "اَلسَّلَامُ عَلَیکُم", "transliteration": "as-salāmu ʿalaykum" }
+        },
+        {
+          "id": "good_morning",
+          "en": { "text": "Good morning!" },
+          "ar": { "text": "صَبَاح الخَيْر!", "transliteration": "ṣabāḥ al-khayr!" },
+          "ur": { "text": "صُبح بخیر!", "transliteration": "ṣubḥ bakhair!" }
+        },
+        {
+          "id": "good_night",
+          "en": { "text": "Good night!" },
+          "ar": { "text": "تَصْبَح عَلَى خَيْر!", "transliteration": "taṣbaḥ ʿala khayr!" },
+          "ur": { "text": "شُب بخیر!", "transliteration": "shab bakhair!" }
+        },
+        {
+          "id": "how_are_you",
+          "en": { "text": "How are you?" },
+          "ar": { "text": "كَيْفَ حَالُك؟", "transliteration": "kayfa ḥāluk?" },
+          "ur": { "text": "آپ کیسے ہیں؟", "transliteration": "āp kaise haiñ?" }
+        },
+        {
+          "id": "i_am_fine",
+          "en": { "text": "I am fine, thank you!" },
+          "ar": { "text": "أَنَا بِخَيْر، شُكْراً!", "transliteration": "anā bi-khayr, shukran!" },
+          "ur": { "text": "میں ٹھیک ہوں، شکریہ!", "transliteration": "maiñ ṭhīk hūñ, shukriya!" }
+        },
+        {
+          "id": "goodbye",
+          "en": { "text": "Goodbye!" },
+          "ar": { "text": "مَع السَّلَامَة!", "transliteration": "maʿa s-salāma!" },
+          "ur": { "text": "خُدا حافِظ!", "transliteration": "khudā ḥāfiẓ!" }
+        },
+        {
+          "id": "my_name_is",
+          "en": { "text": "My name is ___." },
+          "ar": { "text": "اسْمِي ___.", "transliteration": "ismī ___." },
+          "ur": { "text": "میرا نام ___ ہے۔", "transliteration": "merā nām ___ hai." }
+        },
+        {
+          "id": "nice_to_meet_you",
+          "en": { "text": "Nice to meet you!" },
+          "ar": { "text": "يَسْعَدُنِي لِقَاؤُك!", "transliteration": "yasʿadunī liqāʾuk!" },
+          "ur": { "text": "آپ سے مِل کر خُوشی ہوئی!", "transliteration": "āp se mil kar khushī huʾī!" }
+        }
+      ]
+    },
+    {
+      "id": "at_school",
+      "label": { "en": "At School", "ar": "فِي المَدْرَسَة", "ur": "اسکول میں" },
+      "emoji": "🏫",
+      "scene": "scenes/school.png",
+      "phrases": [
+        {
+          "id": "open_book",
+          "en": { "text": "Open your book." },
+          "ar": { "text": "افْتَح كِتَابَك.", "transliteration": "iftaḥ kitābak." },
+          "ur": { "text": "اپنی کِتاب کھولو۔", "transliteration": "apnī kitāb kholo." }
+        },
+        {
+          "id": "sit_down",
+          "en": { "text": "Please sit down." },
+          "ar": { "text": "اجْلِس مِن فَضْلِك.", "transliteration": "ijlis min faḍlik." },
+          "ur": { "text": "براہ کرم بیٹھ جاؤ۔", "transliteration": "barāh karam baiṭh jāʾo." }
+        },
+        {
+          "id": "i_dont_understand",
+          "en": { "text": "I don't understand." },
+          "ar": { "text": "لَا أَفْهَم.", "transliteration": "lā afham." },
+          "ur": { "text": "مُجھے سَمَجھ نہیں آیا۔", "transliteration": "mujhe samajh nahīñ āyā." }
+        },
+        {
+          "id": "can_you_repeat",
+          "en": { "text": "Can you repeat that?" },
+          "ar": { "text": "هَل يُمْكِنُك الإِعَادَة؟", "transliteration": "hal yumkinuk al-iʿāda?" },
+          "ur": { "text": "کیا آپ دُوبارہ کہہ سکتے ہیں؟", "transliteration": "kyā āp dobāra keh sakte haiñ?" }
+        },
+        {
+          "id": "i_know",
+          "en": { "text": "I know!" },
+          "ar": { "text": "أَعْرَف!", "transliteration": "aʿraf!" },
+          "ur": { "text": "مُجھے پتہ ہے!", "transliteration": "mujhe pata hai!" }
+        },
+        {
+          "id": "well_done",
+          "en": { "text": "Well done!" },
+          "ar": { "text": "أَحْسَنْت!", "transliteration": "aḥsant!" },
+          "ur": { "text": "شاباش!", "transliteration": "shābāsh!" }
+        }
+      ]
+    },
+    {
+      "id": "at_home",
+      "label": { "en": "At Home", "ar": "فِي البَيْت", "ur": "گھر پر" },
+      "emoji": "🏠",
+      "scene": "scenes/home.png",
+      "phrases": [
+        {
+          "id": "i_am_hungry",
+          "en": { "text": "I am hungry." },
+          "ar": { "text": "أَنَا جَائِع.", "transliteration": "anā jāʾiʿ." },
+          "ur": { "text": "مُجھے بھوک لگی ہے۔", "transliteration": "mujhe bhūk lagī hai." }
+        },
+        {
+          "id": "i_am_thirsty",
+          "en": { "text": "I am thirsty." },
+          "ar": { "text": "أَنَا عَطْشَان.", "transliteration": "anā ʿaṭshān." },
+          "ur": { "text": "مُجھے پیاس لگی ہے۔", "transliteration": "mujhe piyās lagī hai." }
+        },
+        {
+          "id": "i_am_tired",
+          "en": { "text": "I am tired." },
+          "ar": { "text": "أَنَا تَعْبَان.", "transliteration": "anā taʿbān." },
+          "ur": { "text": "میں تھکا ہوں۔", "transliteration": "maiñ thakā hūñ." }
+        },
+        {
+          "id": "i_love_you",
+          "en": { "text": "I love you!" },
+          "ar": { "text": "أُحِبُّك!", "transliteration": "uḥibbuk!" },
+          "ur": { "text": "میں تُم سے پیار کرتا ہوں!", "transliteration": "maiñ tum se pyār kartā hūñ!" }
+        },
+        {
+          "id": "please",
+          "en": { "text": "Please." },
+          "ar": { "text": "مِن فَضْلِك.", "transliteration": "min faḍlik." },
+          "ur": { "text": "براہ کرم۔", "transliteration": "barāh karam." }
+        },
+        {
+          "id": "thank_you",
+          "en": { "text": "Thank you!" },
+          "ar": { "text": "شُكْراً!", "transliteration": "shukran!" },
+          "ur": { "text": "شُکریہ!", "transliteration": "shukriya!" }
+        },
+        {
+          "id": "sorry",
+          "en": { "text": "Sorry!" },
+          "ar": { "text": "آسِف!", "transliteration": "āsif!" },
+          "ur": { "text": "معاف کریں!", "transliteration": "maʿāf karẽ!" }
+        },
+        {
+          "id": "yes",
+          "en": { "text": "Yes" },
+          "ar": { "text": "نَعَم", "transliteration": "naʿam" },
+          "ur": { "text": "ہاں", "transliteration": "hāñ" }
+        },
+        {
+          "id": "no",
+          "en": { "text": "No" },
+          "ar": { "text": "لَا", "transliteration": "lā" },
+          "ur": { "text": "نہیں", "transliteration": "nahīñ" }
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "label": { "en": "Feelings", "ar": "المَشَاعِر", "ur": "احساسات" },
+      "emoji": "😊",
+      "scene": "scenes/feelings.png",
+      "phrases": [
+        {
+          "id": "i_am_happy",
+          "en": { "text": "I am happy!" },
+          "ar": { "text": "أَنَا سَعِيد!", "transliteration": "anā saʿīd!" },
+          "ur": { "text": "میں خوش ہوں!", "transliteration": "maiñ khush hūñ!" }
+        },
+        {
+          "id": "i_am_sad",
+          "en": { "text": "I am sad." },
+          "ar": { "text": "أَنَا حَزِين.", "transliteration": "anā ḥazīn." },
+          "ur": { "text": "میں اُداس ہوں۔", "transliteration": "maiñ udās hūñ." }
+        },
+        {
+          "id": "i_am_scared",
+          "en": { "text": "I am scared." },
+          "ar": { "text": "أَنَا خَائِف.", "transliteration": "anā khāʾif." },
+          "ur": { "text": "مُجھے ڈر لگ رہا ہے۔", "transliteration": "mujhe ḍar lag rahā hai." }
+        },
+        {
+          "id": "i_am_excited",
+          "en": { "text": "I am excited!" },
+          "ar": { "text": "أَنَا مُتَحَمِّس!", "transliteration": "anā mutaḥammis!" },
+          "ur": { "text": "میں پُر جوش ہوں!", "transliteration": "maiñ pur josh hūñ!" }
+        }
+      ]
+    },
+    {
+      "id": "prayers_duas",
+      "label": { "en": "Du'as & Blessings", "ar": "الأَدْعِيَة", "ur": "دعائیں" },
+      "emoji": "🤲",
+      "scene": "scenes/dua.png",
+      "phrases": [
+        {
+          "id": "bismillah",
+          "en": { "text": "In the name of Allah" },
+          "ar": { "text": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيم", "transliteration": "bismillāhi r-raḥmāni r-raḥīm" },
+          "ur": { "text": "بِسمِ اللہِ الرَّحمٰنِ الرَّحِیم", "transliteration": "bismillāhi r-raḥmāni r-raḥīm" }
+        },
+        {
+          "id": "alhamdulillah",
+          "en": { "text": "All praise is for Allah" },
+          "ar": { "text": "الحَمْدُ للهِ", "transliteration": "al-ḥamdu lillāh" },
+          "ur": { "text": "اَلحَمدُ للہ", "transliteration": "al-ḥamdu lillāh" }
+        },
+        {
+          "id": "mashallah",
+          "en": { "text": "What Allah has willed" },
+          "ar": { "text": "مَا شَاء الله", "transliteration": "mā shāʾa llāh" },
+          "ur": { "text": "ما شاء اللہ", "transliteration": "mā shāʾa llāh" }
+        },
+        {
+          "id": "inshallah",
+          "en": { "text": "If Allah wills" },
+          "ar": { "text": "إِن شَاء الله", "transliteration": "in shāʾa llāh" },
+          "ur": { "text": "اِنشاء اللہ", "transliteration": "in shāʾa llāh" }
+        },
+        {
+          "id": "dua_eating",
+          "en": { "text": "Du'a before eating" },
+          "ar": { "text": "اللَّهُمَّ بَارِك لَنَا فِيمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّار", "transliteration": "allāhumma bārik lanā fīmā razaqtanā wa qinā ʿadhāba n-nār" },
+          "ur": { "text": "اَللّٰہُمَّ بَارِک لَنَا فِیمَا رَزَقتَنَا وَقِنَا عَذَابَ النَّار", "transliteration": "allāhumma bārik lanā fīmā razaqtanā wa qinā ʿadhāba n-nār" }
+        }
+      ]
+    }
+  ]
+}
