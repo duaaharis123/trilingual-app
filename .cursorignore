@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+apps/mobile/node_modules/
+LinguaKidsTemp/node_modules/
+
+# Build outputs
+apps/mobile/android/build/
+apps/mobile/android/.gradle/
+apps/mobile/android/.kotlin/
+LinguaKidsTemp/android/build/
+LinguaKidsTemp/ios/build/
+LinguaKidsTemp/ios/Pods/
+
+# Generated files
+apps/mobile/android/link-assets-manifest.json
+apps/mobile/package-lock.json
+
+# Logs
+apps/mobile/firebase-debug.log
+*.log
+
+# Binary assets (images, audio, fonts)
+assets/images/
+assets/audio/
+assets/fonts/
+apps/mobile/assets/
+
+# Legacy/temp project
+LinguaKidsTemp/
+
+# Git internals
+.git/
+
+# Keystore / secrets
+apps/mobile/android/app/debug.keystore
+LinguaKidsTemp/android/app/debug.keystore
