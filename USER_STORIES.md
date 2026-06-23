@@ -110,95 +110,95 @@
 
 ### Multiple Choice Quiz
 
-| ID | Priority | Story |
-|---|---|---|
-| US-035 | 🔴 | As **Aisha (Child, age 4)**, I want to see an image and tap the correct word from four choices, so that I can test what I've learned in a simple, visual way. |
-| US-036 | 🔴 | As **Zaid (Child, age 7)**, I want to choose which language the answer choices appear in (English / Arabic / Urdu), so that I can challenge myself in my weaker language. |
-| US-037 | 🔴 | As **Aisha (Child, age 4)**, I want a happy animation and sound when I get an answer right, so that I feel encouraged to keep going. |
-| US-038 | 🔴 | As **Aisha (Child, age 4)**, I want a gentle, non-scary response when I get an answer wrong (e.g., mascot shakes head kindly), so that I don't feel bad and want to try again. |
-| US-039 | 🟠 | As **Zaid (Child, age 7)**, I want to see my score at the end of a quiz (e.g., 8/10), so that I know how well I did. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-035 | 🔴 | ⬜ | As **Aisha (Child, age 4)**, I want to see an image and tap the correct word from four choices, so that I can test what I've learned in a simple, visual way. |
+| US-036 | 🔴 | ⬜ | As **Zaid (Child, age 7)**, I want to choose which language the answer choices appear in (English / Arabic / Urdu), so that I can challenge myself in my weaker language. |
+| US-037 | 🔴 | ⬜ | As **Aisha (Child, age 4)**, I want a happy animation and sound when I get an answer right, so that I feel encouraged to keep going. |
+| US-038 | 🔴 | ⬜ | As **Aisha (Child, age 4)**, I want a gentle, non-scary response when I get an answer wrong (e.g., mascot shakes head kindly), so that I don't feel bad and want to try again. |
+| US-039 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want to see my score at the end of a quiz (e.g., 8/10), so that I know how well I did. |
 
 ### Sound Match Game
 
-| ID | Priority | Story |
-|---|---|---|
-| US-040 | 🔴 | As **Aisha (Child, age 4)**, I want to hear a word spoken and then tap the matching image from a set of 4, so that I practice listening without needing to read. |
-| US-041 | 🟠 | As **Zaid (Child, age 7)**, I want the app to randomly choose which language the audio plays in, so that I'm tested across all three languages. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-040 | 🔴 | ⬜ | As **Aisha (Child, age 4)**, I want to hear a word spoken and then tap the matching image from a set of 4, so that I practice listening without needing to read. |
+| US-041 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want the app to randomly choose which language the audio plays in, so that I'm tested across all three languages. |
 
 ### Word Hunt Game
 
-| ID | Priority | Story |
-|---|---|---|
-| US-042 | 🔴 | As **Aisha (Child, age 4)**, I want to explore a colourful illustrated scene (e.g., a kitchen) and tap the object whose name the mascot calls out, so that learning feels like an adventure. |
-| US-043 | 🟠 | As **Zaid (Child, age 7)**, I want the spoken word to switch languages each round in Word Hunt, so that I practice listening in all three languages during the same game. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-042 | 🔴 | ⬜ | As **Aisha (Child, age 4)**, I want to explore a colourful illustrated scene (e.g., a kitchen) and tap the object whose name the mascot calls out, so that learning feels like an adventure. |
+| US-043 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want the spoken word to switch languages each round in Word Hunt, so that I practice listening in all three languages during the same game. |
 
 ### Matching Game
 
-| ID | Priority | Story |
-|---|---|---|
-| US-044 | 🟠 | As **Zaid (Child, age 7)**, I want to drag word tiles to their matching image cards, so that I practice connecting written words to pictures. |
-| US-045 | 🟠 | As **Zaid (Child, age 7)**, I want to choose whether the word tiles show English, Arabic, or Urdu, so that I can specifically practice reading the script I'm weakest in. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-044 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want to drag word tiles to their matching image cards, so that I practice connecting written words to pictures. |
+| US-045 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want to choose whether the word tiles show English, Arabic, or Urdu, so that I can specifically practice reading the script I'm weakest in. |
 
 ### Missing Letter Game
 
-| ID | Priority | Story |
-|---|---|---|
-| US-046 | 🟠 | As **Zaid (Child, age 7)**, I want to see a word with one letter missing and tap the correct letter from a small set of options, so that I practice spelling. |
-| US-047 | 🟡 | As **Zaid (Child, age 7)**, I want the Missing Letter game to work in Arabic and Urdu as well, so that I practice all three scripts. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-046 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want to see a word with one letter missing and tap the correct letter from a small set of options, so that I practice spelling. |
+| US-047 | 🟡 | ⬜ | As **Zaid (Child, age 7)**, I want the Missing Letter game to work in Arabic and Urdu as well, so that I practice all three scripts. |
 
 ### Story Time
 
-| ID | Priority | Story |
-|---|---|---|
-| US-048 | 🟠 | As **Aisha (Child, age 4)**, I want to listen to short illustrated stories where each word lights up as it is spoken, so that I can follow along even though I can't fully read yet. |
-| US-049 | 🟠 | As **Zaid (Child, age 7)**, I want to tap any word in a story to hear it said aloud in all three languages, so that I can learn new vocabulary in context. |
-| US-050 | 🟡 | As **Sara (Parent)**, I want to set the story narration language (English / Arabic / Urdu), so that I can target the language my child needs the most practice in. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-048 | 🟠 | ⬜ | As **Aisha (Child, age 4)**, I want to listen to short illustrated stories where each word lights up as it is spoken, so that I can follow along even though I can't fully read yet. |
+| US-049 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want to tap any word in a story to hear it said aloud in all three languages, so that I can learn new vocabulary in context. |
+| US-050 | 🟡 | ⬜ | As **Sara (Parent)**, I want to set the story narration language (English / Arabic / Urdu), so that I can target the language my child needs the most practice in. |
 
 ### Sing-Along Songs
 
-| ID | Priority | Story |
-|---|---|---|
-| US-051 | 🟠 | As **Aisha (Child, age 4)**, I want to watch nursery rhymes play with animated characters and see the words highlighted as they are sung, so that I learn through music and movement. |
-| US-052 | 🟡 | As **Zaid (Child, age 7)**, I want to toggle which language's lyrics are shown while the song plays, so that I can follow along in the language I'm learning. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-051 | 🟠 | ⬜ | As **Aisha (Child, age 4)**, I want to watch nursery rhymes play with animated characters and see the words highlighted as they are sung, so that I learn through music and movement. |
+| US-052 | 🟡 | ⬜ | As **Zaid (Child, age 7)**, I want to toggle which language's lyrics are shown while the song plays, so that I can follow along in the language I'm learning. |
 
 ---
 
 ## Epic 5 — Alphabet & Script Learning
 
-| ID | Priority | Story |
-|---|---|---|
-| US-053 | 🔴 | As **Aisha (Child, age 4)**, I want to tap any letter in the English alphabet and hear its name and phonics sound, so that I learn letter-sound associations. |
-| US-054 | 🔴 | As **Zaid (Child, age 7)**, I want to see the Arabic alphabet displayed with each letter's three forms (initial, medial, final), so that I understand how Arabic letters change shape in words. |
-| US-055 | 🔴 | As **Zaid (Child, age 7)**, I want to see all Arabic letters with full Tashkeel (short vowel marks) so that I can read and pronounce them correctly from the start. |
-| US-056 | 🔴 | As **Zaid (Child, age 7)**, I want to tap each Urdu letter and hear a native speaker pronounce it in Nastaliq script, so that I hear the correct sound for each letter. |
-| US-057 | 🟠 | As **Aisha (Child, age 4)**, I want to trace a letter with my finger on screen and have the app show me if I'm drawing it correctly, so that I learn how to write each letter. |
-| US-058 | 🟠 | As **Zaid (Child, age 7)**, I want to play a letter quiz (hear a sound → tap the correct letter), so that I can test my alphabet knowledge for all three scripts. |
-| US-059 | 🟡 | As **Zaid (Child, age 7)**, I want to see which letter a vocabulary word starts with highlighted when I view a word card, so that alphabet learning connects to real words. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-053 | 🔴 | ⬜ | As **Aisha (Child, age 4)**, I want to tap any letter in the English alphabet and hear its name and phonics sound, so that I learn letter-sound associations. |
+| US-054 | 🔴 | ⬜ | As **Zaid (Child, age 7)**, I want to see the Arabic alphabet displayed with each letter's three forms (initial, medial, final), so that I understand how Arabic letters change shape in words. |
+| US-055 | 🔴 | ⬜ | As **Zaid (Child, age 7)**, I want to see all Arabic letters with full Tashkeel (short vowel marks) so that I can read and pronounce them correctly from the start. |
+| US-056 | 🔴 | ⬜ | As **Zaid (Child, age 7)**, I want to tap each Urdu letter and hear a native speaker pronounce it in Nastaliq script, so that I hear the correct sound for each letter. |
+| US-057 | 🟠 | ⬜ | As **Aisha (Child, age 4)**, I want to trace a letter with my finger on screen and have the app show me if I'm drawing it correctly, so that I learn how to write each letter. |
+| US-058 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want to play a letter quiz (hear a sound → tap the correct letter), so that I can test my alphabet knowledge for all three scripts. |
+| US-059 | 🟡 | ⬜ | As **Zaid (Child, age 7)**, I want to see which letter a vocabulary word starts with highlighted when I view a word card, so that alphabet learning connects to real words. |
 
 ---
 
 ## Epic 6 — Phrases & Sentences
 
-| ID | Priority | Story |
-|---|---|---|
-| US-060 | 🔴 | As **Aisha (Child, age 4)**, I want to see illustrated scenes (e.g., greeting a friend) with the matching phrase shown below in all three languages, so that I learn useful phrases in context. |
-| US-061 | 🔴 | As **Aisha (Child, age 4)**, I want to tap the scene to hear the phrase spoken in any language I choose, so that I can mimic the pronunciation. |
-| US-062 | 🟠 | As **Zaid (Child, age 7)**, I want phrases grouped by situation (Greetings, At School, At Home, etc.), so that I can learn phrases relevant to my daily life. |
-| US-063 | 🟡 | As **Sara (Parent)**, I want to mark certain phrases as "priority" in the parent dashboard, so that my child sees those phrases more frequently in their sessions. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-060 | 🔴 | ⬜ | As **Aisha (Child, age 4)**, I want to see illustrated scenes (e.g., greeting a friend) with the matching phrase shown below in all three languages, so that I learn useful phrases in context. |
+| US-061 | 🔴 | ⬜ | As **Aisha (Child, age 4)**, I want to tap the scene to hear the phrase spoken in any language I choose, so that I can mimic the pronunciation. |
+| US-062 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want phrases grouped by situation (Greetings, At School, At Home, etc.), so that I can learn phrases relevant to my daily life. |
+| US-063 | 🟡 | ⬜ | As **Sara (Parent)**, I want to mark certain phrases as "priority" in the parent dashboard, so that my child sees those phrases more frequently in their sessions. |
 
 ---
 
 ## Epic 7 — Gamification & Rewards
 
-| ID | Priority | Story |
-|---|---|---|
-| US-064 | 🔴 | As **Zaid (Child, age 7)**, I want to earn stars for completing flashcard sessions and quizzes, so that I feel rewarded for my effort. |
-| US-065 | 🔴 | As **Zaid (Child, age 7)**, I want to see a daily streak counter (flame icon) showing how many days in a row I've learned something, so that I'm motivated to open the app every day. |
-| US-066 | 🔴 | As **Aisha (Child, age 4)**, I want a celebration animation (confetti, dancing mascot) when I finish an activity, so that completing a session feels exciting. |
-| US-067 | 🟠 | As **Zaid (Child, age 7)**, I want to unlock achievement badges ("First 10 Words!", "Alphabet Master", "Week Warrior"), so that I have goals to work toward. |
-| US-068 | 🟠 | As **Aisha (Child, age 4)**, I want to spend my earned stars to dress up my avatar with hats, glasses, and accessories, so that learning feels like playing a game. |
-| US-069 | 🟠 | As **Zaid (Child, age 7)**, I want to see a visual progress map (illustrated world) where completing a category unlocks the next zone, so that I can see how far I've come. |
-| US-070 | 🟡 | As **Zaid (Child, age 7)**, I want to see a summary of the words I learned in today's session on a "Well done!" end screen, so that I feel a sense of accomplishment. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-064 | 🔴 | ⬜ | As **Zaid (Child, age 7)**, I want to earn stars for completing flashcard sessions and quizzes, so that I feel rewarded for my effort. |
+| US-065 | 🔴 | ⬜ | As **Zaid (Child, age 7)**, I want to see a daily streak counter (flame icon) showing how many days in a row I've learned something, so that I'm motivated to open the app every day. |
+| US-066 | 🔴 | ⬜ | As **Aisha (Child, age 4)**, I want a celebration animation (confetti, dancing mascot) when I finish an activity, so that completing a session feels exciting. |
+| US-067 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want to unlock achievement badges ("First 10 Words!", "Alphabet Master", "Week Warrior"), so that I have goals to work toward. |
+| US-068 | 🟠 | ⬜ | As **Aisha (Child, age 4)**, I want to spend my earned stars to dress up my avatar with hats, glasses, and accessories, so that learning feels like playing a game. |
+| US-069 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want to see a visual progress map (illustrated world) where completing a category unlocks the next zone, so that I can see how far I've come. |
+| US-070 | 🟡 | ⬜ | As **Zaid (Child, age 7)**, I want to see a summary of the words I learned in today's session on a "Well done!" end screen, so that I feel a sense of accomplishment. |
 
 ---
 
@@ -206,100 +206,100 @@
 
 ### Progress Monitoring
 
-| ID | Priority | Story |
-|---|---|---|
-| US-071 | 🔴 | As **Sara (Parent)**, I want to see a dashboard showing how many words each child has learned, their current streak, and total time spent, so that I can monitor their progress at a glance. |
-| US-072 | 🔴 | As **Sara (Parent)**, I want to see a breakdown of progress per language (English / Arabic / Urdu separately), so that I know which language needs more attention. |
-| US-073 | 🟠 | As **Usman (Parent)**, I want to see a list of words my child has marked as "Hard," so that I can help them practice those words in real life. |
-| US-074 | 🟠 | As **Sara (Parent)**, I want to receive a weekly email summary of my child's progress, so that I stay informed without opening the app every day. |
-| US-075 | 🟡 | As **Sara (Parent)**, I want to export my child's progress report as a PDF, so that I can share it with their teacher. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-071 | 🔴 | ⬜ | As **Sara (Parent)**, I want to see a dashboard showing how many words each child has learned, their current streak, and total time spent, so that I can monitor their progress at a glance. |
+| US-072 | 🔴 | ⬜ | As **Sara (Parent)**, I want to see a breakdown of progress per language (English / Arabic / Urdu separately), so that I know which language needs more attention. |
+| US-073 | 🟠 | ⬜ | As **Usman (Parent)**, I want to see a list of words my child has marked as "Hard," so that I can help them practice those words in real life. |
+| US-074 | 🟠 | ⬜ | As **Sara (Parent)**, I want to receive a weekly email summary of my child's progress, so that I stay informed without opening the app every day. |
+| US-075 | 🟡 | ⬜ | As **Sara (Parent)**, I want to export my child's progress report as a PDF, so that I can share it with their teacher. |
 
 ### Controls & Safety
 
-| ID | Priority | Story |
-|---|---|---|
-| US-076 | 🔴 | As **Sara (Parent)**, I want to set a daily session time limit for each child profile, so that my child doesn't spend too much time on the app. |
-| US-077 | 🔴 | As **Sara (Parent)**, I want a child-lock PIN that must be entered to exit the app or access settings, so that my child can't change settings or exit during learning time. |
-| US-078 | 🔴 | As **Usman (Parent)**, I want to lock specific content modules (e.g., hide Story Time until my child finishes Flashcards), so that I can guide my child's learning order. |
-| US-079 | 🟠 | As **Sara (Parent)**, I want to toggle audio autoplay on or off for each child profile, so that I can control noise level depending on the situation. |
-| US-080 | 🟠 | As **Sara (Parent)**, I want daily learning reminder notifications to be opt-in and configurable (time, days of week), so that reminders help rather than annoy. |
-| US-081 | 🟠 | As **Sara (Parent)**, I want to manage up to 4 child profiles from a single parent account, so that all my children are covered under one subscription. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-076 | 🔴 | ⬜ | As **Sara (Parent)**, I want to set a daily session time limit for each child profile, so that my child doesn't spend too much time on the app. |
+| US-077 | 🔴 | ⬜ | As **Sara (Parent)**, I want a child-lock PIN that must be entered to exit the app or access settings, so that my child can't change settings or exit during learning time. |
+| US-078 | 🔴 | ⬜ | As **Usman (Parent)**, I want to lock specific content modules (e.g., hide Story Time until my child finishes Flashcards), so that I can guide my child's learning order. |
+| US-079 | 🟠 | ⬜ | As **Sara (Parent)**, I want to toggle audio autoplay on or off for each child profile, so that I can control noise level depending on the situation. |
+| US-080 | 🟠 | ⬜ | As **Sara (Parent)**, I want daily learning reminder notifications to be opt-in and configurable (time, days of week), so that reminders help rather than annoy. |
+| US-081 | 🟠 | ⬜ | As **Sara (Parent)**, I want to manage up to 4 child profiles from a single parent account, so that all my children are covered under one subscription. |
 
 ### Custom Content
 
-| ID | Priority | Story |
-|---|---|---|
-| US-082 | 🟠 | As **Sara (Parent)**, I want to create a custom flashcard deck by selecting words from the vocabulary library, so that I can align the app with what my child is learning at school. |
-| US-083 | 🟡 | As **Sara (Parent)**, I want to add my own word (with a custom image and audio note I record) to a custom deck, so that I can include family-specific words like relatives' names. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-082 | 🟠 | ⬜ | As **Sara (Parent)**, I want to create a custom flashcard deck by selecting words from the vocabulary library, so that I can align the app with what my child is learning at school. |
+| US-083 | 🟡 | ⬜ | As **Sara (Parent)**, I want to add my own word (with a custom image and audio note I record) to a custom deck, so that I can include family-specific words like relatives' names. |
 
 ---
 
 ## Epic 9 — Offline Support
 
-| ID | Priority | Story |
-|---|---|---|
-| US-084 | 🔴 | As **Sara (Parent)**, I want to download a content category for offline use, so that my child can learn during flights or when there is no internet connection. |
-| US-085 | 🔴 | As **Zaid (Child, age 7)**, I want my progress (stars earned, cards reviewed, streak) to be saved locally and synced to the cloud when I reconnect, so that nothing is lost when I go offline. |
-| US-086 | 🟠 | As **Aisha (Child, age 4)**, I want the app to clearly tell me (with a simple icon, not text) when I am in offline mode, so that I know why some new content might not load. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-084 | 🔴 | ⬜ | As **Sara (Parent)**, I want to download a content category for offline use, so that my child can learn during flights or when there is no internet connection. |
+| US-085 | 🔴 | ⬜ | As **Zaid (Child, age 7)**, I want my progress (stars earned, cards reviewed, streak) to be saved locally and synced to the cloud when I reconnect, so that nothing is lost when I go offline. |
+| US-086 | 🟠 | ⬜ | As **Aisha (Child, age 4)**, I want the app to clearly tell me (with a simple icon, not text) when I am in offline mode, so that I know why some new content might not load. |
 
 ---
 
 ## Epic 10 — Accessibility
 
-| ID | Priority | Story |
-|---|---|---|
-| US-087 | 🔴 | As **Sara (Parent)**, I want to increase the font size across the app in settings, so that my child with mild visual difficulty can read comfortably. |
-| US-088 | 🔴 | As **Sara (Parent)**, I want to enable a high-contrast display mode, so that the app is usable for children with visual impairments. |
-| US-089 | 🔴 | As **Aisha (Child, age 4)**, I want all interactive buttons to be large enough to tap easily with small fingers, so that I'm not frustrated by missing small targets. |
-| US-090 | 🟠 | As **Sara (Parent)**, I want the parent settings screens to be fully compatible with my phone's screen reader (VoiceOver / TalkBack), so that I can navigate settings without visual difficulty. |
-| US-091 | 🟠 | As **Sara (Parent)**, I want to turn off all background music independently of voice audio, so that my child can focus on pronunciation without distraction. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-087 | 🔴 | ⬜ | As **Sara (Parent)**, I want to increase the font size across the app in settings, so that my child with mild visual difficulty can read comfortably. |
+| US-088 | 🔴 | ⬜ | As **Sara (Parent)**, I want to enable a high-contrast display mode, so that the app is usable for children with visual impairments. |
+| US-089 | 🔴 | ⬜ | As **Aisha (Child, age 4)**, I want all interactive buttons to be large enough to tap easily with small fingers, so that I'm not frustrated by missing small targets. |
+| US-090 | 🟠 | ⬜ | As **Sara (Parent)**, I want the parent settings screens to be fully compatible with my phone's screen reader (VoiceOver / TalkBack), so that I can navigate settings without visual difficulty. |
+| US-091 | 🟠 | ⬜ | As **Sara (Parent)**, I want to turn off all background music independently of voice audio, so that my child can focus on pronunciation without distraction. |
 
 ---
 
 ## Epic 11 — RTL & Multilingual UI
 
-| ID | Priority | Story |
-|---|---|---|
-| US-092 | 🔴 | As **Usman (Parent)**, I want the entire parent dashboard UI to display in Urdu (RTL layout) when I select Urdu as my preferred language, so that I can understand all settings and reports in my native language. |
-| US-093 | 🔴 | As **Sara (Parent)**, I want the app's UI to display in Arabic (RTL layout) when I select Arabic, so that navigation feels natural to me as an Arabic speaker. |
-| US-094 | 🔴 | As **Zaid (Child, age 7)**, I want Arabic text to always display in Naskh font with full Tashkeel, so that I can correctly read and pronounce every word. |
-| US-095 | 🔴 | As **Zaid (Child, age 7)**, I want Urdu text to always display in the Nastaliq style, so that the script looks authentic and matches what I see in Urdu books. |
-| US-096 | 🟠 | As **Zaid (Child, age 7)**, I want to toggle romanized transliteration (phonetic pronunciation in Latin letters) on or off for Arabic and Urdu words, so that I can challenge myself to read without help as I improve. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-092 | 🔴 | ⬜ | As **Usman (Parent)**, I want the entire parent dashboard UI to display in Urdu (RTL layout) when I select Urdu as my preferred language, so that I can understand all settings and reports in my native language. |
+| US-093 | 🔴 | ⬜ | As **Sara (Parent)**, I want the app's UI to display in Arabic (RTL layout) when I select Arabic, so that navigation feels natural to me as an Arabic speaker. |
+| US-094 | 🔴 | ⬜ | As **Zaid (Child, age 7)**, I want Arabic text to always display in Naskh font with full Tashkeel, so that I can correctly read and pronounce every word. |
+| US-095 | 🔴 | ⬜ | As **Zaid (Child, age 7)**, I want Urdu text to always display in the Nastaliq style, so that the script looks authentic and matches what I see in Urdu books. |
+| US-096 | 🟠 | ⬜ | As **Zaid (Child, age 7)**, I want to toggle romanized transliteration (phonetic pronunciation in Latin letters) on or off for Arabic and Urdu words, so that I can challenge myself to read without help as I improve. |
 
 ---
 
 ## Epic 12 — Teacher / Classroom Mode *(Phase 2)*
 
-| ID | Priority | Story |
-|---|---|---|
-| US-097 | 🟡 | As **Ms. Nadia (Teacher)**, I want to create a teacher account and set up a class roster, so that I can manage my students' learning from one place. |
-| US-098 | 🟡 | As **Ms. Nadia (Teacher)**, I want to assign a specific vocabulary deck or category to my whole class, so that every student practises the same content this week. |
-| US-099 | 🟡 | As **Ms. Nadia (Teacher)**, I want to view an anonymised progress overview for my class (% of words learned, average streak), so that I can identify which students need extra support. |
-| US-100 | 🟡 | As **Ms. Nadia (Teacher)**, I want to export a printable PDF flashcard set from any deck, so that I can use physical cards for classroom activities without needing devices. |
-| US-101 | 🟡 | As **Ms. Nadia (Teacher)**, I want to invite students to my class via a simple 6-character code, so that setup is quick and doesn't require students to share any personal details. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-097 | 🟡 | ⬜ | As **Ms. Nadia (Teacher)**, I want to create a teacher account and set up a class roster, so that I can manage my students' learning from one place. |
+| US-098 | 🟡 | ⬜ | As **Ms. Nadia (Teacher)**, I want to assign a specific vocabulary deck or category to my whole class, so that every student practises the same content this week. |
+| US-099 | 🟡 | ⬜ | As **Ms. Nadia (Teacher)**, I want to view an anonymised progress overview for my class (% of words learned, average streak), so that I can identify which students need extra support. |
+| US-100 | 🟡 | ⬜ | As **Ms. Nadia (Teacher)**, I want to export a printable PDF flashcard set from any deck, so that I can use physical cards for classroom activities without needing devices. |
+| US-101 | 🟡 | ⬜ | As **Ms. Nadia (Teacher)**, I want to invite students to my class via a simple 6-character code, so that setup is quick and doesn't require students to share any personal details. |
 
 ---
 
 ## Epic 13 — Subscription & Payments
 
-| ID | Priority | Story |
-|---|---|---|
-| US-102 | 🔴 | As **Sara (Parent)**, I want to try the app for 7 days for free without entering a payment method, so that I can decide if it is right for my children before committing. |
-| US-103 | 🔴 | As **Sara (Parent)**, I want to subscribe monthly or annually and manage my subscription entirely within the app, so that I don't need to visit a website. |
-| US-104 | 🔴 | As **Usman (Parent)**, I want to cancel my subscription at any time from within the app, so that I feel in control of what I'm paying for. |
-| US-105 | 🟠 | As **Sara (Parent)**, I want to receive a receipt by email after each payment, so that I can track the expense. |
-| US-106 | 🟠 | As **Sara (Parent)**, I want to see clearly which features are free and which require a subscription before I sign up, so that there are no surprises. |
-| US-107 | 🟡 | As **Ms. Nadia (Teacher)**, I want to purchase a classroom subscription that covers all 30 of my students under one payment, so that individual families don't need their own accounts. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-102 | 🔴 | ⬜ | As **Sara (Parent)**, I want to try the app for 7 days for free without entering a payment method, so that I can decide if it is right for my children before committing. |
+| US-103 | 🔴 | ⬜ | As **Sara (Parent)**, I want to subscribe monthly or annually and manage my subscription entirely within the app, so that I don't need to visit a website. |
+| US-104 | 🔴 | ⬜ | As **Usman (Parent)**, I want to cancel my subscription at any time from within the app, so that I feel in control of what I'm paying for. |
+| US-105 | 🟠 | ⬜ | As **Sara (Parent)**, I want to receive a receipt by email after each payment, so that I can track the expense. |
+| US-106 | 🟠 | ⬜ | As **Sara (Parent)**, I want to see clearly which features are free and which require a subscription before I sign up, so that there are no surprises. |
+| US-107 | 🟡 | ⬜ | As **Ms. Nadia (Teacher)**, I want to purchase a classroom subscription that covers all 30 of my students under one payment, so that individual families don't need their own accounts. |
 
 ---
 
 ## Epic 14 — Notifications & Engagement
 
-| ID | Priority | Story |
-|---|---|---|
-| US-108 | 🟠 | As **Sara (Parent)**, I want to receive a gentle push notification when my child's daily streak is at risk of breaking, so that I can remind them to do a quick session. |
-| US-109 | 🟠 | As **Sara (Parent)**, I want to choose what time of day the learning reminder notification is sent, so that it fits my child's schedule. |
-| US-110 | 🟡 | As **Zaid (Child, age 7)**, I want the app to show me a "Word of the Day" on the home screen each time I open it, so that I learn something new even before starting a full session. |
+| ID | Priority | Status | Story |
+|---|---|---|---|
+| US-108 | 🟠 | ⬜ | As **Sara (Parent)**, I want to receive a gentle push notification when my child's daily streak is at risk of breaking, so that I can remind them to do a quick session. |
+| US-109 | 🟠 | ⬜ | As **Sara (Parent)**, I want to choose what time of day the learning reminder notification is sent, so that it fits my child's schedule. |
+| US-110 | 🟡 | ⬜ | As **Zaid (Child, age 7)**, I want the app to show me a "Word of the Day" on the home screen each time I open it, so that I learn something new even before starting a full session. |
 
 ---
 
