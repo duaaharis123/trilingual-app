@@ -28,6 +28,9 @@ const ar = {
   errorEmailExists: 'هذا البريد الإلكتروني مسجّل مسبقاً.',
   errorWrongCredentials: 'البريد الإلكتروني أو كلمة المرور غير صحيحة.',
   errorRequired: 'هذا الحقل مطلوب.',
+  errorGoogleSignIn: 'فشل تسجيل الدخول عبر Google. حاول مرة أخرى.',
+  errorGoogleCancelled: '',
+  errorGeneric: 'حدث خطأ ما. حاول مرة أخرى.',
 
   privacyTitle: 'خصوصيتك مهمة',
   privacyBody:

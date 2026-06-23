@@ -17,6 +17,11 @@ node_modules/
 .env
 .env.*
 !.env.example
+apps/mobile/android/keystore.properties
+
+# Secret backups (never commit)
+backups/
+*-secrets-backup*.zip
 
 # Logs
 npm-debug.log*

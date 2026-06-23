@@ -31,6 +31,9 @@ const en = {
   errorEmailExists: 'This email is already registered.',
   errorWrongCredentials: 'Incorrect email or password.',
   errorRequired: 'This field is required.',
+  errorGoogleSignIn: 'Google sign-in failed. Please try again.',
+  errorGoogleCancelled: '',
+  errorGeneric: 'Something went wrong. Please try again.',
 
   // Privacy (US-003)
   privacyTitle: 'Your Privacy Matters',

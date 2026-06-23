@@ -1,17 +1,30 @@
+import auth from '@react-native-firebase/auth';
+import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import { Storage } from './storage';
 import type { ParentAccount, UILanguage } from '../types';
 
-// Simple hash for dev — replace with Firebase Auth in production
-function hashPassword(pw: string): string {
-  let h = 0;
-  for (let i = 0; i < pw.length; i++) {
-    h = (Math.imul(31, h) + pw.charCodeAt(i)) | 0;
+GoogleSignin.configure({
+  webClientId: '204157957177-rhj9u73sqtplbuso6t90q49n2t6n3p4l.apps.googleusercontent.com',
+});
+
+function mapFirebaseError(code: string): string {
+  switch (code) {
+    case 'auth/email-already-in-use':    return 'errorEmailExists';
+    case 'auth/user-not-found':
+    case 'auth/wrong-password':
+    case 'auth/invalid-credential':      return 'errorWrongCredentials';
+    case 'auth/invalid-email':           return 'errorInvalidEmail';
+    case 'auth/weak-password':           return 'errorWeakPassword';
+    default:                             return 'errorGeneric';
   }
-  return h.toString(36);
 }
 
-function uuid(): string {
-  return Date.now().toString(36) + Math.random().toString(36).slice(2);
+async function loadProfile(uid: string): Promise<ParentAccount | null> {
+  return Storage.get<ParentAccount>(`parent:${uid}`);
+}
+
+async function saveProfile(parent: ParentAccount): Promise<void> {
+  await Storage.set(`parent:${parent.id}`, parent);
 }
 
 export const AuthService = {
@@ -21,50 +34,94 @@ export const AuthService = {
     displayName: string;
     uiLanguage: UILanguage;
   }): Promise<{ parent: ParentAccount } | { error: string }> {
-    const existing = await Storage.get<ParentAccount>(`parent:${params.email.toLowerCase()}`);
-    if (existing) return { error: 'errorEmailExists' };
+    try {
+      const credential = await auth().createUserWithEmailAndPassword(params.email, params.password);
+      await credential.user.updateProfile({ displayName: params.displayName });
 
-    const parent: ParentAccount = {
-      id: uuid(),
-      email: params.email.toLowerCase(),
-      displayName: params.displayName,
-      passwordHash: hashPassword(params.password),
-      privacyConsentAt: null,
-      parentWalkthroughDone: false,
-      uiLanguage: params.uiLanguage,
-      createdAt: new Date().toISOString(),
-    };
+      const parent: ParentAccount = {
+        id: credential.user.uid,
+        email: params.email.toLowerCase(),
+        displayName: params.displayName,
+        privacyConsentAt: null,
+        parentWalkthroughDone: false,
+        uiLanguage: params.uiLanguage,
+        createdAt: new Date().toISOString(),
+      };
 
-    await Storage.set(`parent:${parent.email}`, parent);
-    await Storage.set('session', { email: parent.email });
-    return { parent };
+      await saveProfile(parent);
+      return { parent };
+    } catch (e: any) {
+      return { error: mapFirebaseError(e?.code ?? '') };
+    }
   },
 
   async login(email: string, password: string): Promise<{ parent: ParentAccount } | { error: string }> {
-    const parent = await Storage.get<ParentAccount>(`parent:${email.toLowerCase()}`);
-    if (!parent) return { error: 'errorWrongCredentials' };
-    if (parent.passwordHash !== hashPassword(password)) return { error: 'errorWrongCredentials' };
-    await Storage.set('session', { email: parent.email });
-    return { parent };
+    try {
+      const credential = await auth().signInWithEmailAndPassword(email, password);
+      const profile = await loadProfile(credential.user.uid);
+      if (!profile) return { error: 'errorWrongCredentials' };
+      return { parent: profile };
+    } catch (e: any) {
+      return { error: mapFirebaseError(e?.code ?? '') };
+    }
   },
 
-  async restoreSession(): Promise<ParentAccount | null> {
-    const session = await Storage.get<{ email: string }>('session');
-    if (!session) return null;
-    return Storage.get<ParentAccount>(`parent:${session.email}`);
-  },
+  async signInWithGoogle(uiLanguage: UILanguage): Promise<{ parent: ParentAccount } | { error: string }> {
+    try {
+      await GoogleSignin.hasPlayServices();
+      const signInResult = await GoogleSignin.signIn();
+      const idToken = signInResult.data?.idToken;
+      if (!idToken) return { error: 'errorGoogleSignIn' };
 
-  async updateParent(parent: ParentAccount): Promise<void> {
-    await Storage.set(`parent:${parent.email}`, parent);
+      const googleCredential = auth.GoogleAuthProvider.credential(idToken);
+      const { user } = await auth().signInWithCredential(googleCredential);
+
+      // Return existing profile or create one
+      const existing = await loadProfile(user.uid);
+      if (existing) return { parent: existing };
+
+      const parent: ParentAccount = {
+        id: user.uid,
+        email: (user.email ?? '').toLowerCase(),
+        displayName: user.displayName ?? (user.email ?? '').split('@')[0],
+        privacyConsentAt: null,
+        parentWalkthroughDone: false,
+        uiLanguage,
+        createdAt: new Date().toISOString(),
+      };
+
+      await saveProfile(parent);
+      return { parent };
+    } catch (e: any) {
+      if (e?.code === 'SIGN_IN_CANCELLED') return { error: 'errorGoogleCancelled' };
+      return { error: 'errorGoogleSignIn' };
+    }
   },
 
   async logout(): Promise<void> {
-    await Storage.remove('session');
+    const isGoogleUser = await GoogleSignin.isSignedIn();
+    if (isGoogleUser) await GoogleSignin.revokeAccess();
+    await auth().signOut();
   },
 
   async requestPasswordReset(email: string): Promise<boolean> {
-    const parent = await Storage.get<ParentAccount>(`parent:${email.toLowerCase()}`);
-    // In production: call Firebase sendPasswordResetEmail(auth, email)
-    return !!parent;
+    try {
+      await auth().sendPasswordResetEmail(email);
+      return true;
+    } catch {
+      return false;
+    }
+  },
+
+  async updateParent(parent: ParentAccount): Promise<void> {
+    await saveProfile(parent);
+  },
+
+  getCurrentFirebaseUser() {
+    return auth().currentUser;
+  },
+
+  onAuthStateChanged(callback: (uid: string | null) => void): () => void {
+    return auth().onAuthStateChanged(user => callback(user?.uid ?? null));
   },
 };

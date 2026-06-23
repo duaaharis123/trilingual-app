@@ -34,10 +34,9 @@ export interface Word {
 }
 
 export interface ParentAccount {
-  id: string;
+  id: string;        // Firebase UID
   email: string;
   displayName: string;
-  passwordHash: string;
   privacyConsentAt: string | null;
   parentWalkthroughDone: boolean;
   uiLanguage: UILanguage;

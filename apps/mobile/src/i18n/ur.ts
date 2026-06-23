@@ -28,6 +28,9 @@ const ur = {
   errorEmailExists: 'یہ ای میل پہلے سے رجسٹرڈ ہے۔',
   errorWrongCredentials: 'غلط ای میل یا پاس ورڈ۔',
   errorRequired: 'یہ فیلڈ ضروری ہے۔',
+  errorGoogleSignIn: 'Google سائن ان ناکام ہوا۔ دوبارہ کوشش کریں۔',
+  errorGoogleCancelled: '',
+  errorGeneric: 'کچھ غلط ہو گیا۔ دوبارہ کوشش کریں۔',
 
   privacyTitle: 'آپ کی رازداری اہم ہے',
   privacyBody:

@@ -18,6 +18,7 @@ interface AppContextValue {
   // Auth (Epic 1)
   signup: (email: string, password: string, name: string, lang: UILanguage) => Promise<string | null>;
   login: (email: string, password: string) => Promise<string | null>;
+  loginWithGoogle: () => Promise<string | null>;
   logout: () => Promise<void>;
   resetPassword: (email: string) => Promise<boolean>;
   acceptPrivacy: () => Promise<void>;
@@ -48,22 +49,29 @@ export function AppProvider({ children: jsxChildren }: { children: React.ReactNo
   const [children, setChildren] = useState<ChildProfile[]>([]);
   const [activeChild, setActiveChild] = useState<ChildProfile | null>(null);
 
-  // Restore session on mount
+  // Restore session via Firebase Auth state
   useEffect(() => {
-    (async () => {
-      const p = await AuthService.restoreSession();
-      if (p) {
-        setParent(p);
-        applyRTL(p.uiLanguage);
-        const saved = await Storage.get<ChildProfile[]>(`children:${p.id}`);
-        if (saved) setChildren(saved);
-        const lastChildId = await Storage.get<string>('activeChildId');
-        if (lastChildId && saved) {
-          setActiveChild(saved.find(c => c.id === lastChildId) ?? null);
+    const unsubscribe = AuthService.onAuthStateChanged(async uid => {
+      if (uid) {
+        const p = await Storage.get<ParentAccount>(`parent:${uid}`);
+        if (p) {
+          setParent(p);
+          applyRTL(p.uiLanguage);
+          const saved = await Storage.get<ChildProfile[]>(`children:${p.id}`);
+          if (saved) setChildren(saved);
+          const lastChildId = await Storage.get<string>('activeChildId');
+          if (lastChildId && saved) {
+            setActiveChild(saved.find(c => c.id === lastChildId) ?? null);
+          }
         }
+      } else {
+        setParent(null);
+        setChildren([]);
+        setActiveChild(null);
       }
       setLoading(false);
-    })();
+    });
+    return unsubscribe;
   }, []);
 
   const persistChildren = useCallback(async (parentId: string, updated: ChildProfile[]) => {
@@ -89,11 +97,19 @@ export function AppProvider({ children: jsxChildren }: { children: React.ReactNo
     return null;
   }, []);
 
+  const loginWithGoogle = useCallback(async (): Promise<string | null> => {
+    const result = await AuthService.signInWithGoogle('en');
+    if ('error' in result) return result.error;
+    setParent(result.parent);
+    applyRTL(result.parent.uiLanguage);
+    const saved = await Storage.get<ChildProfile[]>(`children:${result.parent.id}`);
+    if (saved) setChildren(saved);
+    return null;
+  }, []);
+
   const logout = useCallback(async () => {
     await AuthService.logout();
-    setParent(null);
-    setChildren([]);
-    setActiveChild(null);
+    // State cleared by onAuthStateChanged firing with null
   }, []);
 
   const resetPassword = useCallback(async (email: string) => {
@@ -167,6 +183,7 @@ export function AppProvider({ children: jsxChildren }: { children: React.ReactNo
     activeChild,
     signup,
     login,
+    loginWithGoogle,
     logout,
     resetPassword,
     acceptPrivacy,
